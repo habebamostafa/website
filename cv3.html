@@ -44,9 +44,10 @@
             <div class="row">
                 <div class="col-11">
                     <nav class="main-nav">
-                            <a href="index.html">
-                                <h3>Prof.Haithm Zinhom</h3>
-                            </a>
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="./images/profhaithm-zinhom-high-resolution-logo-grayscale-transparent.png"style="width: 200px; height: 80px;">
+                        </a>
                         
                         <!-- ***** Menu Start ***** -->
                         <div class="col-lg-10">
@@ -108,8 +109,122 @@
             </div>
         </div>
     </header>
-  	
-  	
+  	<br><br><br><br><br>
+  	<section>
+        <div class="container">
+            <h2>التدرج الاكاديمي </h2>
+            <ul class="responsive-table" dir="rtl">
+              <li class="table-header">
+                <div class="col col-1"> الوظيفة</div>
+                <div class="col col-2">الكلية\ الجامعة </div>
+                <div class="col col-3"> السنة</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" >استاذ مساعد</div>
+                <div class="col col-2" > أستاذ مساعد قسم اللغة العربية، كلية الآداب، جامعة المنوفية- مصر	.</div>
+                <div class="col col-3" >2021</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" >أستاذ مشارك </div>
+                <div class="col col-2" > أستاذ مشارك جامعة محمد بن زايد للعلوم الإنسانية – الإمارات العربية المتحدة</div>
+                <div class="col col-3" >2021</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" >مدرس</div>
+                <div class="col col-2" > مدرس	قسم اللغة العربية، كلية الآداب، جامعة المنوفية- مصر	</div>
+                <div class="col col-3" >2013</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" >مدرس مساعد</div>
+                <div class="col col-2" >مدرس مساعد	قسم اللغة العربية، كلية الآداب، جامعة المنوفية- مصر.</div>
+                <div class="col col-3" >2010</div>
+              </li>
+              <li class="table-row">
+                <div class="col col-1" > معيد</div>
+                <div class="col col-2" >	قسم اللغة العربية، كلية الآداب، جامعة المنوفية-مصر	2006م</div>
+                <div class="col col-3" >2006</div>
+              </li>
+            </ul>
+          </div>                    
+	</section>
   				
 </body>
+<style>
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  direction: rtl;
+}
+h2 small {
+  font-size: 0.5em;
+}
+
+.responsive-table {
+  direction: rtl; /* Ensures the table is aligned for RTL */
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  text-align: right; /* Aligns content to the right */
+}
+
+.table-header {
+  background-color: #95A5A6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-align: right;
+}
+
+.table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.col-1 {
+  flex-basis: 10%;
+}
+.col-2 {
+  flex-basis: 40%;
+}
+.col-3 {
+  flex-basis: 25%;
+}
+.col-4 {
+  flex-basis: 25%;
+}
+
+@media all and (max-width: 767px) {
+  .table-header {
+    display: none;
+  }
+  li {
+    display: block;
+  }
+  .col {
+    flex-basis: 100%;
+    text-align: right; /* Ensures content aligns to the right */
+  }
+  .col:before {
+    color: #6C7A89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: left; /* Data label aligns to the left for better readability */
+  }
+}
+
+
+</style>
 </html>
