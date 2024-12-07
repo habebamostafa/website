@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Prof. Haithm Zinhom</title>
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="../mainstyle.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
+  <link rel="stylesheet" href="../assets/css/templatemo-hexashop.css">
+  <link rel="stylesheet" href="../assets/css/owl-carousel.css">
+  <link rel="stylesheet" href="../assets/css/lightbox.css">
+
+  <!-- Custom CSS for Responsiveness -->
+  <style>
+.header-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
+}
+
+.main-nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+.nav li {
+  position: relative;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+/* Styling for the submenu */
+.nav .submenu {
+  position: relative;
+}
+
+.nav .submenu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.nav .submenu:hover ul {
+  display: block; /* Show submenu on hover */
+}
+
+.submenu ul li a {
+  padding: 8px 15px;
+  display: block;
+  background-color: #f9f9f9;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav .submenu-items {
+  display: none; /* Hide submenu by default */
+  position: absolute;
+  top: 100%; /* Position it right below the parent list item */
+  left: 0; /* Align it to the left edge of the parent li */
+  background-color: #444;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 10; /* Ensure it appears above other content */
+}
+
+.nav .submenu:hover .submenu-items {
+  display: block; /* Show the submenu when hovering */
+}
+
+/* Styling for the menu trigger (hamburger icon) */
+.menu-trigger {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-trigger span {
+  display: block;
+  background: #333;
+  height: 3px;
+  width: 25px;
+  margin: 5px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .main-nav {
+    flex-direction: column;
+  }
+
+  .menu-trigger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  .nav li {
+    width: 100%;
+  }
+
+  .nav a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  /* Display the menu when active */
+  .menu-trigger.active + .nav {
+    display: flex;
+  }
+
+  /* Ensure submenu appears below the parent item in mobile view */
+  .nav .submenu .submenu-items {
+    position: static;
+    width: 100%;
+    display: none; /* Keep submenu hidden by default */
+  }
+
+  .nav .submenu.active .submenu-items {
+    display: block; /* Show the submenu when it's active */
+  }
+
+  /* Submenu styles for mobile: Make the submenu items block level */
+  .submenu ul li a {
+    padding: 10px;
+    display: block;
+    text-align: left;
+    background-color: #f9f9f9;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky" 
+  style="position: fixed; text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%; 
+
+  padding: 1em 2%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  z-index: 1000;">    
+      <div class="container">
+      <div class="main-nav">
+        <!-- ***** Logo Start ***** -->
+        <a href="../main/index.html" class="logo">
+          <img src="../images/profhaithm-zinhom-high-resolution-logo-grayscale-transparent.png" alt="Logo">
+        </a>
+
+        <!-- ***** Menu Trigger for Mobile ***** -->
+        <div class="menu-trigger" onclick="toggleMenu(this)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- ***** Menu Start ***** -->
+<!-- ***** Menu Start ***** -->
+<div class="col-lg-10">
+    <ul class="nav">
+       
+        <li class="scroll-to-section"><a href="../call/call.html" class="active">اتصل بنا</a></li>
+        <li class="submenu">
+            <a href="javascript:void(0);" class="submenu-link">الاعلام</a>
+            <ul class="submenu-items">                <li><a href="../media/media0.html">ارشيف الاخبار</a></li>
+                <li><a href="../media/media1.html">احدث الابحاث</a></li>
+                <li><a href="../media/media2.html">احدث الندوات</a></li>
+                <li><a href="../media/media3.html">احدث المحاضرات</a></li>
+                <li><a href="../media/media4.html">نشرة الابحاث</a></li>
+                <li><a href="../media/media5.html">المكتبة العامة</a></li>
+            </ul>
+        </li>
+        <li class="submenu">
+            <a href="javascript:void(0);" class="submenu-link">المنارة</a>
+            <ul class="submenu-items">                <li><a href="../manara/manara0.html">فيديوهات</a></li>
+                <li><a href="../manara/manara1.html">الندوات والورش التدريبية</a></li>
+                <li><a href="../manara/manara2.html">المحاضرات العلمية</a></li>
+                <li><a href="../manara/manara3.html">مقالات</a></li>
+            </ul>
+        </li>
+        <li class="submenu">
+            <a href="javascript:void(0);" class="submenu-link">مكتبة ابن الهيثم</a>
+            <ul class="submenu-items">                <li><a href="../lib/lib0.html">الكتب والمصنفات</a></li>
+                <li><a href="../lib/lib1.html">قواعد البيانات</a></li>
+                <li><a href="../lib/lib2.html">الابحاث العلمية </a></li>
+                <li><a href="../lib/lib3.html">الكل</a></li>
+                <li><a href="../lib/lib4.html">خدمات ومنصات تعليمية</a></li>
+            </ul>
+        </li>
+        <li class="submenu">
+            <a href="javascript:void(0);" class="submenu-link">السيرة الذاتية</a>
+            <ul class="submenu-items">
+                                <li><a href="../cv/cv0.html">البيانات الشخصية</a></li>
+                <li><a href="../cv/cv1.html">التخصص</a></li>
+                <li><a href="../cv/cv2.html">المؤهلات الدراسية</a></li>
+                <li><a href="../cv/cv3.html">التدرج الوظيفي</a></li>
+                <li><a href="../cv/cv4.html">التدرج الاداري</a></li>
+                <li><a href="../cv/cv5.html">الخبرات</a></li>
+                <li><a href="../cv/cv6.html">مشروعات مستقبلية</a></li>
+                <li><a href="../cv/cv7.html">وسائل التواصل</a></li>
+                <li><a href="../cv/cv8.html">تحميل سيرة ذاتية مفصلة</a></li>
+                <li><a href="../cv/cv9.html">تحميل سيرة ذاتية مختصرة</a></li>
+            </ul>
+        </li>
+    </ul>  
+      </div>
+    </div>
+  </header>
+    <!-- ***** Header Area End ***** -->
+     <br> 
+   <!-- ***** Explore Area Starts ***** -->
+   <section class="section" id="explore" style="background-color: rgb(228, 228, 228);">
+    <div class="main-banner" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-content">
+                    <h2>Prof.Haithm Zinhom</h2>
+                    <span style="font-size: medium; color: #333;">د. هيثم زينهم مرسى برغوث
+                        أستاذ مشارك في جامعة محمد بن زايد للعلوم الإنسانية </span>
+                    <span style="font-size: medium;color: #333;">أستاذ مساعد  في قسم اللغة العربــية كلية الآداب جامعة المنوفية 2013م</span>
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i><p>
+                            <!--  -->
+                        </p>
+                    </div>
+                    <div class="main-border-button">
+                        <a href="../cv/cv0.html">Discover More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-content"style="background-color: white;">
+                    <div class="row">
+                        <a href="#" class="photo">
+                        <img src="../images/PHOTO-2024-11-12-09-39-12.jpg" style="width: 100%; height: 100%;">
+                        <div class="glow-wrap">
+                            <i class="glow"></i>
+                          </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- ***** Explore Area Ends ***** -->
+
+    <section class="our-services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>اكتشف المصادر </h2>
+                    <span>يمكنك تصفح المزيد من المصادر </span>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-item">
+                    <h4>مكتبة ابن الهيثم</h4>
+                    <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                    <img src="../assets/images/service-01.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-item">
+                    <h4>المنارة</h4>
+                    <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                    <img src="../assets/images/service-02.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="service-item">
+                    <h4>الاعلام</h4>
+                    <p>Lorem ipsum dolor sit amet, consecteturti adipiscing elit, sed do eiusmod temp incididunt ut labore, et dolore quis ipsum suspend.</p>
+                    <img src="../assets/images/service-01.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br><br><br>
+
+  
+    <section class="section" >
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2 style="text-align: center;"> عارض الاخبار </h2>
+                </div>
+            </div>
+            <div class="container">
+              <div class="card-columns">
+                <div class="card">
+                  <a href="#">
+                  <img class="card-img-top" src="https://images.unsplash.com/photo-1535025639604-9a804c092faa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6cb0ceb620f241feb2f859e273634393&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad alias, aliquid amet aspernatur atque culpa cum debitis dicta doloremque, dolorum ea eos et excepturi explicabo facilis harum illo impedit incidunt laborum laudantium...
+                    </p>
+                    <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                </div>
+                  </a>
+                </div>
+                <div class="card">
+                  <a href="#">
+                  <img class="card-img-top" src="https://images.unsplash.com/photo-1472076638602-b1f8b1ac0b4a?ixlib=rb-0.3.5&s=63c9de7246b535be56c8eaff9b87dd89&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, doloremque!</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iusto maxime nemo omnis praesentium similique.</p>
+                    <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                  </div>
+                  </a>
+                </div>
+                <div class="card">
+                  <a href="#">
+                  <img class="card-img-top" src="https://images.unsplash.com/photo-1535086181678-5a5c4d23aa7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34c86263bec2c8f74ceb74e9f4c5a5fc&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur.</h5>
+                    <p class="card-text">Amet commodi deleniti enim laboriosam odio placeat praesentium quis ratione rerum suscipit.</p>
+                    <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                  </div>
+                  </a>
+                </div>
+                <div class="card">
+                  <a href="#">
+                  <img class="card-img-top" src="https://images.unsplash.com/photo-1535074153497-b08c5aa9c236?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2aaf944a59f16fe1fe72f5057b3a7dd&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur.</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                  </div>
+                  </a>
+                </div>
+                <div class="card">
+                  <a href="#">
+                  <img class="card-img-top" src="https://images.unsplash.com/photo-1535124406821-d2848dfbb25c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c434d75b44c9c23fc9df2a9a77d59f&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consequatur culpa cumque deserunt dignissimos error explicabo fugiat harum ipsam magni minus mollitia nemo perferendis qui repellendus rerum saepe vel voluptate voluptatem voluptatum!
+                      Aperiam, labore, molestiae!..</p>
+                    <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                  </div>
+                  </a>
+                </div>
+                <div class="card">
+                  <a href="#">
+                  <img class="card-img-top" src="https://images.unsplash.com/photo-1508015926936-4eddcc6d4866?ixlib=rb-0.3.5&s=10b3a8717ab609be8d7786cab50c4e0b&auto=format&fit=crop&w=500&q=80" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi debitis eaque explicabo fuga maiores necessitatibus, neque omnis optio vel!</p>
+                    <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20, 2018</small></p>
+                  </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+ <br>
+
+    <div class="container" style="width:2000px ;">
+        <h3 style="text-align: right;">عارض الصور</h3>
+        <section class="cards">
+            
+            <article class="card card--1">
+              <div class="card__info-hover">
+                <svg class="card__like"  viewBox="0 0 24 24">
+            </svg>
+                  <div class="card__clock-info">
+                  </div>
+                
+              </div>
+              <div class="card__img"></div>
+              <a href="#" class="card_link">
+                 <div class="card__img--hover"></div>
+               </a>
+              <div class="card__info">
+                <span class="card__category"> title</span>
+              </div>
+            </article>
+              
+              
+            <article class="card card--2">
+              <div class="card__info-hover">
+                <svg class="card__like"  viewBox="0 0 24 24">
+            </svg>
+                  <div class="card__clock-info">
+                    </svg>
+                  </div>
+                
+              </div>
+              <div class="card__img"></div>
+              <a href="#" class="card_link">
+                 <div class="card__img--hover"></div>
+               </a>
+              <div class="card__info">
+                <span class="card__category"> title </span>
+              </div>
+            </article>  
+              
+            <article class="card card--3">
+                <div class="card__info-hover">
+                  <svg class="card__like"  viewBox="0 0 24 24">
+              </svg>
+                    <div class="card__clock-info">
+                      </svg>
+                    </div>
+                  
+                </div>
+                <div class="card__img"></div>
+                <a href="#" class="card_link">
+                   <div class="card__img--hover"></div>
+                 </a>
+                <div class="card__info">
+                  <span class="card__category"> title </span>
+                </div>
+              </article>  
+              
+              <article class="card card--4">
+                <div class="card__info-hover">
+                  <svg class="card__like"  viewBox="0 0 24 24">
+              </svg>
+                    <div class="card__clock-info">
+                      </svg>
+                    </div>
+                  
+                </div>
+                <div class="card__img"></div>
+                <a href="#" class="card_link">
+                   <div class="card__img--hover"></div>
+                 </a>
+                <div class="card__info">
+                  <span class="card__category"> title </span>
+                </div>
+              </article>  
+              
+        
+              <article class="card card--4">
+                <div class="card__info-hover">
+                  <svg class="card__like"  viewBox="0 0 24 24">
+              </svg>
+                    <div class="card__clock-info">
+                      </svg>
+                    </div>
+                  
+                </div>
+                <div class="card__img"></div>
+                <a href="#" class="card_link">
+                   <div class="card__img--hover"></div>
+                 </a>
+                <div class="card__info">
+                  <span class="card__category"> title </span>
+                </div>
+              </article>
+              </section>
+            </div>
+    
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <li><a href="#"><h4 style="color: #ffffff;">Prof.Haithm Zinhom</h4> </a></li>
+                    <div class="first-item">
+                        
+                        <ul><h4>Email:</h4>
+                            <li><h4>waldelsaker@yahoo.com</h4></li>                            <li></li>
+                            <li><h4>haithm.zinhom@yahoo.com</h4></li>
+                            <li><h4>haithm.morsy@mbzuh.ac.ae</h4></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="../cv/cv0.html">السيرة الذاتية</a></li>
+                        <li><a href="../lib/lib0.html">مكتبة ابن الهيثم</a></li>
+                        <li><a href="../manara/manara0.html">المنارة</a></li>
+                        <li><a href="../media/media0.html"> الاعلام</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Help &amp; Information</h4>
+                    <ul>
+                        <li><a href="../call/call.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+  <style>
+
+    
+    .cards {
+      width: 100%;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      max-width: 820px;
+  }
+  
+  .card--1 .card__img, .card--1 .card__img--hover {
+      background-image: url('../assets/images/about-us-page-heading.jpg');
+  }
+  
+  .card--2 .card__img, .card--2 .card__img--hover {
+      background-image: url('../assets/images/about-us-page-heading.jpg');
+  }
+  .card--3 .card__img, .card--3 .card__img--hover {
+      background-image: url('../assets/images/about-us-page-heading.jpg');
+  }
+  .card--4 .card__img, .card--4 .card__img--hover {
+      background-image: url('../assets/images/about-us-page-heading.jpg');
+  }
+  
+  .card__like {
+      width: 18px;
+  }
+  
+  .card__clock {
+      width: 15px;
+    vertical-align: middle;
+      fill: #AD7D52;
+  }
+  .card__time {
+      font-size: 12px;
+      color: #AD7D52;
+      vertical-align: middle;
+      margin-left: 5px;
+  }
+  
+  .card__clock-info {
+      float: right;
+  }
+  
+  .card__img {
+    visibility: hidden;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 400px;
+      height: 235px;
+    border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+    
+  }
+  
+  .card__info-hover {
+      position: absolute;
+      padding: 16px;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+  }
+  
+  .card__img--hover {
+    transition: 0.2s all ease-out;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 300px;
+    position: absolute;
+      height: 235px;
+    border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  top: 0;
+    
+  }
+  .card {
+    margin-right: 25px;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+      width: 33.3%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+  }
+  .card:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+      transform: scale(1.10, 1.10);
+  }
+  
+  .card__info {
+  z-index: 2;
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+     padding: 16px 24px 24px 24px;
+  }
+  
+  .card__category {
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 2px;
+      font-weight: 500;
+    color: #868686;
+  }
+  
+  .card__title {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-family: 'Roboto Slab', serif;
+  }
+  
+  .card__by {
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 500;
+  }
+  
+  .card__author {
+      font-weight: 600;
+      text-decoration: none;
+      color: #AD7D52;
+  }
+  
+  .card:hover .card__img--hover {
+      height: 100%;
+      opacity: 0.3;
+  }
+  
+  .card:hover .card__info {
+      background-color: transparent;
+      position: relative;
+  }
+  
+  .card:hover .card__info-hover {
+      opacity: 1;
+  }
+  
+
+
+
+  </style>
+
+</style>
+</html>
