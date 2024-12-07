@@ -450,8 +450,10 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="left-content">
+                  <div class="responsive-div">
                     <h2>Prof.Haithm Zinhom</h2>
                     <div class="responsive-div">
+                      <div class="responsive-div">
                     <div class="quote">
                       <i class="fa fa-quote-left"></i><p>
                     <span style="font-size: medium; color: #333;">د. هيثم زينهم مرسى برغوث
@@ -460,7 +462,9 @@
                         </p>
                       </div>
                     </div>
+                    </div>
                 </div>
+              </div>
             </div>
             <div class="col-lg-6">
                 <div class="right-content"style="background-color: white;">
@@ -691,6 +695,19 @@
 
   </body>
   <style>
+.responsive-div {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Hide the div on screens smaller than 768px */
+@media (max-width: 768px) {
+    .responsive-div {
+        display: none;
+    }
+}
 
     
     .cards {
