@@ -448,12 +448,14 @@
             <div class="col-lg-6">
                 <div class="left-content">
                     <h2>Prof.Haithm Zinhom</h2>
+                    <div class="responsive-div">
                     <div class="quote">
                       <i class="fa fa-quote-left"></i><p>
                     <span style="font-size: medium; color: #333;">د. هيثم زينهم مرسى برغوث
                         أستاذ مشارك في جامعة محمد بن زايد للعلوم الإنسانية </span>
                     <span style="font-size: medium;color: #333;">أستاذ مساعد  في قسم اللغة العربــية كلية الآداب جامعة المنوفية 2013م</span>
                         </p>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -589,104 +591,24 @@
           </div>
     </section>
  <br>
-
+<section>
     <div class="container" style="width:2000px ;">
         <h3 style="text-align: right;">عارض الصور</h3>
-        <section class="cards">
-            
-            <article class="card card--1">
-              <div class="card__info-hover">
-                <svg class="card__like"  viewBox="0 0 24 24">
-            </svg>
-                  <div class="card__clock-info">
-                  </div>
-                
-              </div>
-              <div class="card__img"></div>
-              <a href="#" class="card_link">
-                 <div class="card__img--hover"></div>
-               </a>
-              <div class="card__info">
-                <span class="card__category"> title</span>
-              </div>
-            </article>
-              
-              
-            <article class="card card--2">
-              <div class="card__info-hover">
-                <svg class="card__like"  viewBox="0 0 24 24">
-            </svg>
-                  <div class="card__clock-info">
-                    </svg>
-                  </div>
-                
-              </div>
-              <div class="card__img"></div>
-              <a href="#" class="card_link">
-                 <div class="card__img--hover"></div>
-               </a>
-              <div class="card__info">
-                <span class="card__category"> title </span>
-              </div>
-            </article>  
-              
-            <article class="card card--3">
-                <div class="card__info-hover">
-                  <svg class="card__like"  viewBox="0 0 24 24">
-              </svg>
-                    <div class="card__clock-info">
-                      </svg>
-                    </div>
-                  
-                </div>
-                <div class="card__img"></div>
-                <a href="#" class="card_link">
-                   <div class="card__img--hover"></div>
-                 </a>
-                <div class="card__info">
-                  <span class="card__category"> title </span>
-                </div>
-              </article>  
-              
-              <article class="card card--4">
-                <div class="card__info-hover">
-                  <svg class="card__like"  viewBox="0 0 24 24">
-              </svg>
-                    <div class="card__clock-info">
-                      </svg>
-                    </div>
-                  
-                </div>
-                <div class="card__img"></div>
-                <a href="#" class="card_link">
-                   <div class="card__img--hover"></div>
-                 </a>
-                <div class="card__info">
-                  <span class="card__category"> title </span>
-                </div>
-              </article>  
-              
-        
-              <article class="card card--4">
-                <div class="card__info-hover">
-                  <svg class="card__like"  viewBox="0 0 24 24">
-              </svg>
-                    <div class="card__clock-info">
-                      </svg>
-                    </div>
-                  
-                </div>
-                <div class="card__img"></div>
-                <a href="#" class="card_link">
-                   <div class="card__img--hover"></div>
-                 </a>
-                <div class="card__info">
-                  <span class="card__category"> title </span>
-                </div>
-              </article>
-              </section>
-            </div>
-    
+          <div class="small3">
+              <ul class="small-ul list-unstyled" data-small3="">
+                  <li><img src="../images/PHOTO-2024-11-12-09-53-10.JPG" width="300" height="200" alt="small" /></li>
+                  <li><img src="../images/PHOTO-2024-11-12-09-53-10.JPG" width="300" height="200" alt="small" /></li>
+                  <li><img src="../images/PHOTO-2024-11-12-09-53-10.JPG" width="300" height="200" alt="small" /></li>
+                  <li><img src="../images/PHOTO-2024-11-12-09-53-10.JPG" width="300" height="200" alt="small" /></li>
+                  <li><img src="../images/PHOTO-2024-11-12-09-53-10.JPG" width="300" height="200" alt="small" /></li>
+                  <li><img src="../images/PHOTO-2024-11-12-09-53-10.JPG" width="300" height="200" alt="small" /></li>
+                  <li><img src="../images/PHOTO-2024-11-12-09-53-10.JPG" width="300" height="200" alt="small" /></li>
+              </ul>
+              <span class="small-span"><i class="fa fa-arrow-circle-right fa-3x"></i></span>
+              <span class="small-span"><i class="fa fa-arrow-circle-left fa-3x"></i></span>
+          </div>
+    </div>
+</section>
     
     <!-- ***** Footer Start ***** -->
     <footer>
@@ -908,10 +830,215 @@
       opacity: 1;
   }
   
+  .small,
+.small2,
+.small3 {
+    font-size: 14px;
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
+.small .small-ul,
+.small2 .small-ul,
+.small3 .small-ul {
+    display: flex;
+    position: absolute;
+    top: 0
+}
+
+.small .small-ul li,
+.small2 .small-ul li,
+.small3 .small-ul li {
+    margin-left: 5px
+}
+
+.small .small-span,
+.small2 .small-span,
+.small3 .small-span {
+    position: absolute;
+    top: calc(50% - 20px);
+    opacity: .1;
+    cursor: pointer;
+    color: #FFF;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 1);
+}
+
+.small .small-span:hover,
+.small2 .small-span:hover,
+.small3 .small-span:hover {
+    opacity: .5
+}
+
+.small .small-span:first-of-type,
+.small2 .small-span:first-of-type,
+.small3 .small-span:first-of-type {
+    right: 10px
+}
+
+.small .small-span:last-of-type,
+.small2 .small-span:last-of-type,
+.small3 .small-span:last-of-type {
+    left: 10px
+}
 
 
   </style>
 
-</style>
+<script>
+  $(document).ready(function() {
+    'use strict';
+    // All Variable =============================================================================================
+    var smallParent = $('.small'),
+        smallUlLi = $('.small .small-ul li'),
+        smallSpan = $('.small .small-span'),
+        smallSetLeft,
+        smallRunLeft;
+    // Reset Li length ==========================================================================================
+    smallUlLi.parent().attr('data-small', smallUlLi.length);
+    // Reset Width And Height ===================================================================================
+    smallParent.width(smallParent.parent().width()).height(smallUlLi.height());
+    smallUlLi.parent().width(smallUlLi.width() * (smallUlLi.length + 1));
+    // Run Set ==================================================================================================
+    smallSetLeft = function() {
+        var smallUlLi = $('.small .small-ul li');
+        if (smallUlLi.length <= smallUlLi.parent().data('small')) {
+            smallUlLi.parent().append('<li>' + smallUlLi.first().html() + '</li>').children().first().animate({
+                marginLeft: -smallUlLi.first().outerWidth()
+            }, 1000, function() {
+                smallUlLi.first().remove();
+            });
+        }
+    };
+    // Run Auto Slider ==========================================================================================
+    smallRunLeft = setInterval(smallSetLeft, 1000);
+    // Pause ====================================================================================================
+    smallParent.mouseenter(function() {
+        clearInterval(smallRunLeft);
+    });
+    // Resume ===================================================================================================
+    smallParent.mouseleave(function() {
+        smallRunLeft = setInterval(smallSetLeft, 1000);
+    });
+    // Right ====================================================================================================
+    smallSpan.first().on('click', function() {
+        var smallUlLi = $('.small .small-ul li'),
+            smallLastLi = smallUlLi.last().html();
+        if (smallUlLi.length <= smallUlLi.parent().data('small')) {
+            smallUlLi.parent().prepend('<li>' + smallLastLi + '</li>').children().last().remove();
+        }
+    });
+    // Left ====================================================================================================
+    smallSpan.last().on('click', function() {
+        var smallUlLi = $('.small .small-ul li'),
+            smallFirstLi = smallUlLi.first().html();
+        if (smallUlLi.length <= smallUlLi.parent().data('small')) {
+            smallUlLi.parent().append('<li>' + smallFirstLi + '</li>').children().first().remove();
+        }
+    });
+    /***********************************************************************************/
+    /************************************* .small2 *************************************/
+    /***********************************************************************************/
+    // All Variable =============================================================================================
+    var smallParent2 = $('.small2'),
+        smallUlLi2 = $('.small2 .small-ul li'),
+        smallSpan2 = $('.small2 .small-span'),
+        smallSetLeft2,
+        smallRunLeft2;
+    // Reset Li length ==========================================================================================
+    smallUlLi2.parent().attr('data-small2', smallUlLi2.length);
+    // Reset Width And Height ===================================================================================
+    smallParent2.width(smallParent2.parent().width()).height(smallUlLi2.height());
+    smallUlLi2.parent().width(smallUlLi2.width() * (smallUlLi2.length + 1));
+    // Run Set ==================================================================================================
+    smallSetLeft2 = function() {
+        var smallUlLi2 = $('.small2 .small-ul li');
+        if (smallUlLi2.length <= smallUlLi2.parent().data('small2')) {
+            smallUlLi2.parent().append('<li>' + smallUlLi2.first().html() + '</li>').children().first().animate({
+                marginLeft: -smallUlLi2.first().outerWidth()
+            }, 2000, function() {
+                smallUlLi2.first().remove();
+            });
+        }
+    };
+    // Run Auto Slider ==========================================================================================
+    smallRunLeft2 = setInterval(smallSetLeft2, 2000);
+    // Pause ====================================================================================================
+    smallParent2.mouseenter(function() {
+        clearInterval(smallRunLeft2);
+    });
+    // Resume ===================================================================================================
+    smallParent2.mouseleave(function() {
+        smallRunLeft2 = setInterval(smallSetLeft2, 2000);
+    });
+    // Right ====================================================================================================
+    smallSpan2.first().on('click', function() {
+        var smallUlLi2 = $('.small2 .small-ul li'),
+            smallLastLi2 = smallUlLi2.last().html();
+        if (smallUlLi2.length <= smallUlLi2.parent().data('small2')) {
+            smallUlLi2.parent().prepend('<li>' + smallLastLi2 + '</li>').children().last().remove();
+        }
+    });
+    // Left ====================================================================================================
+    smallSpan2.last().on('click', function() {
+        var smallUlLi2 = $('.small2 .small-ul li'),
+            smallFirstLi2 = smallUlLi2.first().html();
+        if (smallUlLi2.length <= smallUlLi2.parent().data('small2')) {
+            smallUlLi2.parent().append('<li>' + smallFirstLi2 + '</li>').children().first().remove();
+        }
+    });
+    /***********************************************************************************/
+    /************************************* .small3 *************************************/
+    /***********************************************************************************/
+    // All Variable =============================================================================================
+    var smallParent3 = $('.small3'),
+        smallUlLi3 = $('.small3 .small-ul li'),
+        smallSpan3 = $('.small3 .small-span'),
+        smallSetLeft3,
+        smallRunLeft3;
+    // Reset Li length ==========================================================================================
+    smallUlLi3.parent().attr('data-small3', smallUlLi3.length);
+    // Reset Width And Height ===================================================================================
+    smallParent3.width(smallParent3.parent().width()).height(smallUlLi3.height());
+    smallUlLi3.parent().width(smallUlLi3.width() * (smallUlLi3.length + 1));
+    // Run Set ==================================================================================================
+    smallSetLeft3 = function() {
+        var smallUlLi3 = $('.small3 .small-ul li');
+        if (smallUlLi3.length <= smallUlLi3.parent().data('small3')) {
+            smallUlLi3.parent().append('<li>' + smallUlLi3.first().html() + '</li>').children().first().animate({
+                marginLeft: -smallUlLi3.first().outerWidth()
+            }, 3000, function() {
+                smallUlLi3.first().remove();
+            });
+        }
+    };
+    // Run Auto Slider ==========================================================================================
+    smallRunLeft3 = setInterval(smallSetLeft3, 3000);
+    // Pause ====================================================================================================
+    smallParent3.mouseenter(function() {
+        clearInterval(smallRunLeft3);
+    });
+    // Resume ===================================================================================================
+    smallParent3.mouseleave(function() {
+        smallRunLeft3 = setInterval(smallSetLeft3, 3000);
+    });
+    // Right ====================================================================================================
+    smallSpan3.first().on('click', function() {
+        var smallUlLi3 = $('.small3 .small-ul li'),
+            smallLastLi3 = smallUlLi3.last().html();
+        if (smallUlLi3.length <= smallUlLi3.parent().data('small3')) {
+            smallUlLi3.parent().prepend('<li>' + smallLastLi3 + '</li>').children().last().remove();
+        }
+    });
+    // Left ====================================================================================================
+    smallSpan3.last().on('click', function() {
+        var smallUlLi3 = $('.small3 .small-ul li'),
+            smallFirstLi3 = smallUlLi3.first().html();
+        if (smallUlLi3.length <= smallUlLi3.parent().data('small3')) {
+            smallUlLi3.parent().append('<li>' + smallFirstLi3 + '</li>').children().first().remove();
+        }
+    });
+});
+</script>
 </html>
